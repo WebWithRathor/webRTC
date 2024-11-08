@@ -123,8 +123,8 @@ const Streaming = () => {
             <strong>Email:</strong> {data.email}
           </p>
           <button onClick={() => sendStream(myStream)}>Send Stream</button>
-          <ReactPlayer muted playing url={myStream} />
-          <ReactPlayer muted playing url={remoteStream} />
+          <ReactPlayer  playing url={myStream} />
+          <ReactPlayer  playing url={remoteStream} />
         </div>
       ) : (
         <p>No data available</p>
